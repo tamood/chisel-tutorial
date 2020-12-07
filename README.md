@@ -11,7 +11,7 @@ parameterized generators and layered domain-specific hardware languages.
 Getting the Repo
 ----------------
 
-    $ git clone https://github.com/ucb-bar/chisel-tutorial.git
+    $ git clone https://github.com/tamood/chisel-tutorial.git
     $ cd chisel-tutorial
     $ git fetch origin
     $ git checkout release
