@@ -26,6 +26,11 @@ in [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html).
 
     $ sbt run
 
+Alternatively, you can use sbt-launch.jar to Launch sbt directly from Maven repository. 
+
+    $ export SBT="java -jar sbt-launch.jar"
+    $ $SBT run
+    
 This will generate and test a simple block (`Hello`) that always outputs the
 number 42 (aka 0x2a). You should see `[success]` on the last line of output (from sbt) and
 `PASSED` on the line before indicating the block passed the testcase. If you
